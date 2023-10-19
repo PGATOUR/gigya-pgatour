@@ -215,7 +215,7 @@ class SessionService: SessionServiceProtocol {
         clear()
 
         print("expired")
-        NotificationCenter.default.post(name: .didGigyaSessionExpire, object: nil)
+//        NotificationCenter.default.post(name: .didGigyaSessionExpire, object: nil)
     }
 
     func startSessionCountdownTimerIfNeeded() {

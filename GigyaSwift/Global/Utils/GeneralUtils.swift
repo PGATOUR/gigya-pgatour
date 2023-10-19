@@ -23,13 +23,13 @@ public class GeneralUtils {
         UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
     }
 
-    public func getTopViewController() -> UIViewController? {
-        var topController: UIViewController? = UIApplication.shared.keyWindow?.rootViewController
-        while topController?.presentedViewController != nil {
-            topController = topController?.presentedViewController
-        }
-        return topController
-    }
+//    public func getTopViewController() -> UIViewController? {
+//        var topController: UIViewController? = UIApplication.shared.keyWindow?.rootViewController
+//        while topController?.presentedViewController != nil {
+//            topController = topController?.presentedViewController
+//        }
+//        return topController
+//    }
 
     public func show(vc: UIViewController, title: String, message: String, result: @escaping (Bool) -> Void) {
         DispatchQueue.main.async {

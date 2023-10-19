@@ -6,10 +6,10 @@
 //  Copyright © 2019 Gigya. All rights reserved.
 //
 
-import NotificationCenter
+//import NotificationCenter
 
-extension Notification.Name {
-    static var didGigyaSessionExpire = Notification.Name(rawValue: "didGigyaSessionExpire")
-
-    static var didInvalidateSession = Notification.Name(rawValue: "didInvalidateSession")
-}
+//extension Notification.Name {
+//    static var didGigyaSessionExpire = Notification.Name(rawValue: "didGigyaSessionExpire")
+//
+//    static var didInvalidateSession = Notification.Name(rawValue: "didInvalidateSession")
+//}
