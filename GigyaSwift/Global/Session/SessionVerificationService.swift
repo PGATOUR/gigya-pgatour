@@ -114,6 +114,6 @@ class SessionVerificationService: SessionVerificationServiceProtocol {
         businessApi.logout { _ in }
 
         // send message to the host
-        NotificationCenter.default.post(name: .didInvalidateSession, object: nil, userInfo: errorData.toDictionary())
+//        NotificationCenter.default.post(name: .didInvalidateSession, object: nil, userInfo: errorData.toDictionary())
     }
 }
